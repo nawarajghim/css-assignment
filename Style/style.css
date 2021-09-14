@@ -1,0 +1,75 @@
+body {
+    font-family: 'liberation sans', Arial, sans-serif;
+    color: rgb(65, 50, 63);
+    background-color: rgb(179, 179, 179);
+    background-image: url('../Images/rmlogo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    padding: 0 10px;
+
+}
+
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    color: rgb(133, 44, 44);
+    background-color: cornsilk;
+    
+}
+
+h1:hover {
+    color: chocolate;
+    background-color: gainsboro;
+
+}
+h1:active {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+
+nav > ul {
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    font-family:cursive;
+    border: 3px solid rgb(233, 13, 24, 0.5);
+    border-radius: 10px;
+
+}
+
+nav> ul > li:hover {
+    background-color: red;
+}
+
+p {
+    padding: 0 10px;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+p::first-letter {
+    font-size: 250%;
+    font-weight: normal;
+    float: left;
+    color: #0ff;
+    text-shadow: 1px 1px 3px #0ff,
+    -1px -1px 5px #f00,
+    1px -1px rgb(81, 255, 0),
+    -1px 1px rgb(247, 0, 255);
+
+}
+
+
+iframe {
+    float: right;
+}
+
+.skills-list {
+    list-style-type: none;
+}
+
